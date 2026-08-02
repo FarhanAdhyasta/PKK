@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PKK Flyer Maker</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="sidebar">
+
+        <h2>🌿 PKK Flyer Maker</h2>
+
+        <label>Tempat</label>
+        <input id="tempat" placeholder="Balai Warga">
+
+        <label>Tanggal</label>
+        <input id="tanggal" placeholder="Minggu, 12 Oktober">
+
+        <label>Jam</label>
+        <input id="jam" placeholder="09.00 WIB">
+
+        <label>Upload Foto</label>
+        <input type="file" id="foto">
+
+    </div>
+
+    <div class="preview">
+
+        <div class="flyer">
+
+            <span class="badge">UNDANGAN</span>
+
+            <h1>PERTEMUAN PKK</h1>
+
+            <img id="previewFoto">
+
+            <div class="info">
+
+                <div class="box">
+                    <b>Tempat</b>
+                    <p id="vTempat">-</p>
+                </div>
+
+                <div class="box">
+                    <b>Tanggal</b>
+                    <p id="vTanggal">-</p>
+                </div>
+
+                <div class="box">
+                    <b>Jam</b>
+                    <p id="vJam">-</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
